@@ -33,7 +33,8 @@ type Binning struct {
 }
 
 // The closure created by ranges for the interval start:stop returns the first
-// and last bin overlapping the interval for each level, starting with the smallest bins.
+// and last bin overlapping the interval for each level, starting with the
+// smallest bins.
 // Algorithm by Jim Kent: http://genomewiki.ucsc.edu/index.php/Bin_indexing_system
 func (b Binning) ranges(start, stop int) (func() (int, int, bool), error) {
 	if start < 0 || stop > b.MaxPosition+1 {
