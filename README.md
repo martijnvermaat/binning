@@ -1,6 +1,9 @@
 binning: Interval binning for Go
 ================================
 
+[![GoDoc](https://godoc.org/github.com/martijnvermaat/binning?status.png)](https://godoc.org/github.com/martijnvermaat/binning)
+[![Build Status](https://travis-ci.org/martijnvermaat/binning.svg?branch=master)](https://travis-ci.org/martijnvermaat/binning)
+
 These are some utility functions for working with the interval binning scheme
 as used in the
 [UCSC Genome Browser](http://genome.cshlp.org/content/12/6/996.full).
